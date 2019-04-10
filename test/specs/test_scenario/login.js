@@ -8,6 +8,6 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     $(ta('exp:rockdaisy:atom:email', "(//input[@placeholder='Email'])[1]")).setValue('eugene@trueautomation.io');
     $(ta('exp:rockdaisy:atom:pass', "//input[@placeholder='Password']")).setValue('trueautomation.io');
     $(ta('exp:rockdaisy:atom:loginBtn', "(//button[@class='k-button pull-right'])[1]")).click();
-    browser.pause(5000)
+    browser.pause(2000)
   });
 });

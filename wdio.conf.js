@@ -15,7 +15,7 @@ exports.config = {
   deprecationWarnings: true,
   bail: 0,
   baseUrl: 'http://localhost',
-  waitforTimeout: 120000,
+  waitforTimeout: 20000,
   connectionRetryTimeout: 90000,
   connectionRetryCount: 3,
   services: ['trueautomation'],
@@ -23,6 +23,6 @@ exports.config = {
   framework: 'mocha',
   mochaOpts: {
     ui: 'bdd',
-    timeout: 120000
+    timeout: 20000
   },
 }
