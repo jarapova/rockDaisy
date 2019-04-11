@@ -12,46 +12,46 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
 
     //click on humburg
     $(ta('exp:rockdaisy:atom:humburg', "//a[@class='sports-science-nav-bar']")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
     //click to select category2
     $(ta('exp:rockdaisy:atom:category2', "//div[@class='rd-custom-tooltip 5']/a")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
 
     //click to select content roan 123
     $(ta('exp:rockdaisy:atom:roan123', "(//a[@class='view-content'])[2]")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to open filters
     $(ta('exp:rockdaisy:atom:filtersBtn', "//div[text()='Filters']")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to select test date
     $(ta('exp:rockdaisy:atom:testDate', "(//a/span[@class='dimension-label rd-custom-tooltip'])[1]")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to Apply
     $(ta('exp:rockdaisy:atom:apply', "//button[text()='APPLY']")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to come back
     $(ta('exp:rockdaisy:atom:arrowBack', "//span[@class='icon-arrow-back']")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click on HOME/AWAY
     $(ta('exp:rockdaisy:atom:homeAwayFilter', "(//a/span[@class='dimension-label rd-custom-tooltip'])[1]")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to switch HOME
     $(ta('exp:rockdaisy:atom:switchHome', "(//button[@class='k-button rd-list-link-item k-primary'])[1]")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to Apply
     $(ta('exp:rockdaisy:atom:apply', "//button[text()='APPLY']")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to close filter panel
     $(ta('exp:rockdaisy:atom:closePanel', "//span[@class='icon-close']")).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
   });
 });

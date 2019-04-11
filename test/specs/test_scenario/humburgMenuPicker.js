@@ -12,13 +12,13 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
 
     //click on humburg
     $(ta('exp:rockdaisy:picker:humburg')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
     //click to select dashboard portal
     $(ta('exp:rockdaisy:picker:dashboardPortal')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
     //click to select content TEST THIRD PARTY 2
     $(ta('exp:rockdaisy:picker:dashboardContent')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
 
 

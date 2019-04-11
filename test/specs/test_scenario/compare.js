@@ -40,7 +40,7 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     //click to select  reports compare
     $(ta('exp:rockdaisy:picker:person8')).click();
     browser.pause(1000)//for clarity
-    
+
     //click to close filter panel
     $(ta('exp:rockdaisy:picker:closePanel')).click();
     browser.pause(1000)//for clarity

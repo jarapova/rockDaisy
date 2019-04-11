@@ -1,10 +1,9 @@
 exports.config = {
   runner: 'local',
   specs: [
-    //'./test/specs/**/*.js'
-    './test/specs/**/loginPicker.js'
-    //'./test/specs/**/comments.js'
-    //'./test/specs/test_scenario/exampleTest.js'
+    './test/specs/test_scenario/reports.js'
+    //'./test/specs/test_scenario/humburgMenuPicker.js'
+    //'./test/specs/test_scenario/switchTabs.js'
   ],
   maxInstances: 1,
   capabilities: [{
@@ -24,5 +23,5 @@ exports.config = {
   mochaOpts: {
     ui: 'bdd',
     timeout: 60000
-  },
+  }
 }

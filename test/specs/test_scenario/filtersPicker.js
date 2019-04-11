@@ -23,35 +23,35 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
 
     //click to open filters
     $(ta('exp:rockdaisy:picker:filtersBtn')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to select test date
     $(ta('exp:rockdaisy:picker:testDate')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to Apply
     $(ta('exp:rockdaisy:picker:apply')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to come back
     $(ta('exp:rockdaisy:picker:arrowBack')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click on HOME/AWAY
     $(ta('exp:rockdaisy:picker:homeAwayFilter')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to switch HOME
     $(ta('exp:rockdaisy:picker:switchHome')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to Apply
     $(ta('exp:rockdaisy:picker:apply')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to close filter panel
     $(ta('exp:rockdaisy:picker:closePanel')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
   });
 });
