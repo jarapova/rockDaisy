@@ -19,7 +19,7 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
 
     //click to select content roan 123
     $(ta('exp:rockdaisy:picker:roan123')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(10000)//for clarity
 
     //click to select  reports compare
     $(ta('exp:rockdaisy:picker:compare')).click();

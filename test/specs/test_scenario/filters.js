@@ -20,7 +20,7 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
 
     //click to select content roan 123
     $(ta('exp:rockdaisy:atom:roan123', "(//a[@class='view-content'])[2]")).click();
-    browser.pause(2000)//for clarity
+    browser.pause(10000)//for clarity
 
     //click to open filters
     $(ta('exp:rockdaisy:atom:filtersBtn', "//div[text()='Filters']")).click();
