@@ -23,6 +23,6 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     $(ta(   'exp:rockdaisy:picker:humburg')).click();
     browser.pause(2000)//for clarity
 
-    //   /*[1]/*[2]/*[1]/*[1]/*[1]/*[2]/*[1]/*[1]  - - - - - - humburg on home page
+    //  /*[1]/*[2]/*[1]/*[1]/*[1]/*[2]/*[1]/*[1]  - - - - - - humburg on home page
   });
 });
