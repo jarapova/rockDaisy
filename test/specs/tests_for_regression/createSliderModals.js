@@ -104,11 +104,11 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $("//button[text()='SAVE']")).click();
     $(ta('rockdaisy:atom:saveBtn', "//button[text()='SAVE']")).click();
     // $(ta(   'exp:rockdaisy:picker:saveBtn')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(5000)//for clarity
 
     //click to open SlideShow modal
-    // $("//a[@title='ADD/CREATE SLIDESHOW']").click();
-    $(ta('rockdaisy:atom:addSlideShow',"//a[@title='ADD/CREATE SLIDESHOW']")).click();
+    // $("//span[@class='icon-slideshow']").click();
+    $(ta('rockdaisy:atom:addSlideShow',"//span[@class='icon-slideshow']")).click();
     // $(ta(   'exp:rockdaisy:picker:addSlideShow')).click();
     browser.pause(1000)//for clarity
 
@@ -140,7 +140,7 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $("//button[text()='SAVE']")).click();
     $(ta('rockdaisy:atom:saveBtn', "//button[text()='SAVE']")).click();
     // $(ta(   'exp:rockdaisy:picker:saveBtn')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(5000)//for clarity
 
     //click on logo to comeback on home page
     // $("//a[@class='client-logo-link']").click();
@@ -164,31 +164,31 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $("//button[@ng-click='removeFavoriteGroup(dataItem)']").click();
     $(ta('rockdaisy:picker:removeBtn', "//button[@ng-click='removeFavoriteGroup(dataItem)']")).click();
     // $(ta(   'exp:rockdaisy:picker:removeBtn')).click();
-    browser.pause(2000)//for clarity
+    browser.pause(6000)//for clarity
 
     //click to delete created slider
     // $("//span[@class='icon-delete']").click();
     $(ta('rockdaisy:atom:deleteSlider', "//span[@class='icon-delete']")).click();
     // $(ta(   'exp:rockdaisy:picker:deleteSlider')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click removeBtn
     // $("//button[@ng-click='removeFavoriteGroup(dataItem)']").click();
     $(ta('rockdaisy:picker:removeBtn', "//button[@ng-click='removeFavoriteGroup(dataItem)']")).click();
     // $(ta(   'exp:rockdaisy:picker:removeBtn')).click();
-    browser.pause(2000)//for clarity
+    browser.pause(6000)//for clarity
 
     //click to delete created slider
     // $("//span[@class='icon-delete']").click();
     $(ta('rockdaisy:atom:deleteSlider', "//span[@class='icon-delete']")).click();
     // $(ta(   'exp:rockdaisy:picker:deleteSlider')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click removeBtn
     // $("//button[@ng-click='removeFavoriteGroup(dataItem)']").click();
     $(ta('rockdaisy:picker:removeBtn', "//button[@ng-click='removeFavoriteGroup(dataItem)']")).click();
     // $(ta(   'exp:rockdaisy:picker:removeBtn')).click();
-    browser.pause(2000)//for clarity
+    browser.pause(3000)//for clarity
 
   });
 });

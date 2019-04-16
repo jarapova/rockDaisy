@@ -22,12 +22,13 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $("//a[@class='sports-science-nav-bar']").click();
     $(ta('rockdaisy:atom:humburg', "//a[@class='sports-science-nav-bar']")).click();
     // $(ta('exp:rockdaisy:picker:humburg')).click();
+    browser.pause(2000)//for clarity
 
     //click to select category2
     // $("(//div[@class='sports-science-nav-bar__group-content']//a)[3]").click();
     $(ta('rockdaisy:atom:category2', "(//div[@class='sports-science-nav-bar__group-content']//a)[3]")).click();
     // $(ta('exp:rockdaisy:picker:category2')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to select content roan 123
     // $("(//a[@class='view-content'])[2]").click();
@@ -39,47 +40,47 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $("//span[@class='icon-slideshow']").click();
     $(ta('rockdaisy:atom:addSlideShow',"//span[@class='icon-slideshow']")).click();
     // $(ta('exp:rockdaisy:picker:addSlideShow')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to set new name
     // $("//input[@name='UserUserGroupViewName']").setValue('newSlide1');
     $(ta('rockdaisy:atom:sliderName', "//input[@name='UserUserGroupViewName']")).setValue('newSlide1');
     // $(ta('exp:rockdaisy:picker:sliderName')).setValue('newSlide1');
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to add slides
     // $("(//div[@class='edit-views-favorites-list__item-sub-header'])[2]").click();
     $(ta('rockdaisy:atom:newSlideName2', "(//div[@class='edit-views-favorites-list__item-sub-header'])[2]")).click();
     // $(ta('exp:rockdaisy:picker:newSlideName2')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to add slides
     // $("(//div[@class='edit-views-favorites-list__item-sub-header'])[3]").click();
     $(ta('rockdaisy:atom:newSlideName3', "(//div[@class='edit-views-favorites-list__item-sub-header'])[3]")).click();
     // $(ta('exp:rockdaisy:picker:newSlideName3')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to save
     // $("//button[text()='SAVE']")).click();
     $(ta('rockdaisy:atom:saveBtn', "//button[text()='SAVE']")).click();
     // $(ta('exp:rockdaisy:picker:saveBtn')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click on logo to comeback on home page
     $(ta('exp:rockdaisy:picker:logo')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to toggle tabs
     $(ta('exp:rockdaisy:picker:togleTabs')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click to delete created slider
     $(ta('exp:rockdaisy:picker:deleteSlider')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
     //click removeBtn
     $(ta('exp:rockdaisy:picker:removeBtn')).click();
-    browser.pause(1000)//for clarity
+    browser.pause(2000)//for clarity
 
   });
 });

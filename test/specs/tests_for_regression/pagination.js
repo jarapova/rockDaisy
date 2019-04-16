@@ -3,7 +3,6 @@ const ta = require('trueautomation-helper').ta;
 describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
   it('Test example', () => {
     browser.setTimeout({ 'implicit': 5000 });
-
     browser.url('https://test.rockdaisy.com');
 //==== login
     // $("(//input[@placeholder='Email'])[1]").setValue('eugene@trueautomation.io');
@@ -19,36 +18,46 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $(ta('exp:rockdaisy:picker:loginBtn')).click();
     browser.pause(2000)// need for step, because test goes very fast
 //=============
-//click on humburg
+    //click on humburg
     // $("//a[@class='sports-science-nav-bar']").click();
     $(ta('rockdaisy:atom:humburg', "//a[@class='sports-science-nav-bar']")).click();
     // $(ta('exp:rockdaisy:picker:humburg')).click();
+    browser.pause(2000)//for clarity
 
     //click to select category2
-    // $(ta("(//div[@class='sports-science-nav-bar__group-content']//a)[3]").click();
+    // $("(//div[@class='sports-science-nav-bar__group-content']//a)[3]").click();
     $(ta('rockdaisy:atom:category2', "(//div[@class='sports-science-nav-bar__group-content']//a)[3]")).click();
     // $(ta('exp:rockdaisy:picker:category2')).click();
     browser.pause(2000)//for clarity
 
-    //click to select content roan 123
-    // $("(//a[@class='view-content'])[2]").click();
-    $(ta('rockdaisy:atom:roan123', "(//a[@class='view-content'])[2]")).click();
-    // $(ta('exp:rockdaisy:picker:roan123')).click();
-    browser.pause(10000)//for clarity
+    //click to add new
+    // $("(//span[@class='icon-add'])[1]").click();
+    $(ta('rockdaisy:atom:new', "(//span[@class='icon-add'])[1]")).click();
+    // $(ta('exp:rockdaisy:picker:new')).click();
+    browser.pause(2000)//for clarity
 
-    //click to open comment
-    // $("//ul[@k-orientation="'vertical'"]/li[7]").click();
-    $(ta('rockdaisy:atom:commentsBtn', "//ul[@k-orientation]/li[7]")).click();
-    // $(ta('exp:rockdaisy:picker:commentsBtn')).click();
-    browser.pause(5000)//for clarity
+    //click to add advensed search
+    // $("(//a[@class='k-button rd-custom-tooltip'])[1]").click();
+    $(ta('rockdaisy:atom:nadvensedSearchew', "(//a[@class='k-button rd-custom-tooltip'])[1]")).click();
+    // $(ta('exp:rockdaisy:picker:nadvensedSearchew')).click();
+    browser.pause(2000)//for clarity
 
-    browser.switchToFrame($("//iframe[@class='k-content']"))
-        //$("//body[@class='k-placeholder']").setValue('textValue');
-        $(ta('rockdaisy:atom:iframe',"//body[@class='k-placeholder']")).setValue('textValue')
-        //$(ta('rockdaisy:atom:iframe')).setValue('textValue');
-        browser.pause(5000)//for clarity
-    browser.switchToFrame(null)
-    browser.pause(5000)//for clarity
+    //click to for collapse TEAM:ATL
+    // $("(//a[@class='k-icon k-i-collapse'])[2]").click();
+    $(ta('rockdaisy:atom:teamATL', "(//a[@class='k-icon k-i-collapse'])[2]")).click();
+    // $(ta('exp:rockdaisy:picker:teamATL')).click();
+    browser.pause(2000)//for clarity
 
+    //click to select pagination
+    // $("//a[@data-page='3']").click();
+    $(ta('rockdaisy:atom:pagination3', "//a[@data-page='3']")).click();
+    // $(ta('exp:rockdaisy:picker:pagination3')).click();
+    browser.pause(2000)//for clarity
+
+    //click to select pagination
+    // $("//a[@data-page='5']").click();
+    $(ta('rockdaisy:atom:pagination5', "//a[@data-page='5']")).click();
+    // $(ta('exp:rockdaisy:picker:pagination5')).click();
+    browser.pause(2000)//for clarity
   });
 });

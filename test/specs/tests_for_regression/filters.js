@@ -23,8 +23,8 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $("//a[@class='sports-science-nav-bar']").click();
     $(ta('rockdaisy:atom:humburg', "//a[@class='sports-science-nav-bar']")).click();
     // $(ta('exp:rockdaisy:picker:humburg')).click();
-
     browser.pause(2000)//for clarity
+
     //click to select category2
     // $("//div[@class='rd-custom-tooltip 5']/a").click();
     $(ta('rockdaisy:atom:category2', "//div[@class='rd-custom-tooltip 5']/a")).click();
@@ -43,7 +43,6 @@ describe('TrueAutomation.IO page WebdirverIO + TrueAutomation', () => {
     // $("//div[text()='Filters']").click();
     $(ta('rockdaisy:atom:filtersBtn', "//div[text()='Filters']")).click();
     // $(ta('exp:rockdaisy:picker:filtersBtn')).click();
-
     browser.pause(2000)//for clarity
 
     //click to select test date
